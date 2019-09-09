@@ -1,12 +1,7 @@
 import styles from './index.scss';
 
-
 function BasicLayout(props) {
-  return (
-    <section>
-     <div> {props.children}</div>
-    </section>
-  );
+  return <div> {props.children}</div>;
 }
 
 export default BasicLayout;
