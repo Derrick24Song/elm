@@ -6,7 +6,7 @@ class Mine extends React.Component {
   render() {
     return (
       <section>
-        <header className={styles.header}>
+        <header className="header">
           <section>
             <Link to="/login">
               <h1>登录/注册</h1>
