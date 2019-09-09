@@ -1,0 +1,124 @@
+.Sl_container {
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+
+  .Sl_info {
+    display: flex;
+    padding: 0 10px;
+    .info_img img {
+      width: 65px;
+      height: 65px;
+      border: 1px solid #eee;
+    }
+    .info_main {
+      padding-left: 10px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      h3 {
+        i {
+          background: #fff100;
+          font-size: 12px;
+          margin-right: 3px;
+          color: #6f3f15;
+          border-radius: 3px;
+        }
+        span {
+          color: #333;
+          font-weight: 700;
+          display: inline-block;
+          width: 160px;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap;
+        }
+      }
+    }
+    .info_star {
+      display: flex;
+      justify-content: space-between;
+      .main span {
+        font-size: 12px;
+        margin-left: 4px;
+      }
+      .ps_1 {
+        border: 1px solid #2395ff;
+        font-size: 12px;
+        color: #2395ff;
+      }
+      .ps_2 {
+        font-size: 12px;
+        margin-left: 3px;
+        background: #2395ff;
+        color: #fff;
+      }
+    }
+    .info_time {
+      display: flex;
+      font-size: 12px;
+      justify-content: space-between;
+      .money {
+        color: #666;
+        font-weight: 500;
+      }
+      .time {
+        color: #999;
+      }
+    }
+  }
+  .Sl_activity {
+    padding-left: 85px;
+    .activity_tag {
+      margin: 10px 10px 0 0;
+      padding-bottom: 15px;
+      border-bottom: 1px solid #eee;
+      .tag {
+        border: 1px solid #eee;
+        font-size: 12px;
+        padding: 0 5px;
+      }
+      .tag_rig {
+        background: linear-gradient(to right, rgb(233, 244, 255), rgb(233, 244, 255));
+        color: rgb(35, 149, 255);
+        border-color: rgb(211, 234, 255);
+        font-size: 12px;
+        font-weight: 800;
+        margin-left: 3px;
+      }
+    }
+    .activity_list {
+      padding-top: 5px;
+      display: flex;
+      flex-direction: column;
+      .cut_main {
+        margin-bottom: 5px;
+        .cut {
+          background: rgb(240, 115, 115);
+          color: #fff;
+          font-size: 12px;
+          margin-right: 5px;
+          padding: 0 2px;
+        }
+        span {
+          color: #666;
+          font-size: 12px;
+        }
+      }
+      .fth_main {
+        margin-bottom: 5px;
+        .firt {
+          background: rgb(112, 188, 70);
+          color: #fff;
+          font-size: 12px;
+          margin-right: 5px;
+          padding: 0 2px;
+        }
+        span {
+          color: #666;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
